@@ -9,10 +9,10 @@ html, nav, .kontainer-card-makanan, .land-head{
     margin-right:auto;
     margin-left:auto
  }
- a{
+ a {
      text-decoration: none;
  }
- hr{
+ hr {
      width: 45%;
      margin: 0 auto 5rem;
     height: 20px;
@@ -20,13 +20,13 @@ html, nav, .kontainer-card-makanan, .land-head{
     border-radius: 15px;
     background-color: #702DFF;
  }
+
 /********navbar*********/
 nav { 
     width: 100%;
     padding: 5rem;
     margin-top: 2rem;
     font-size: 1rem;
-    
 }
 nav a {
     font-family: Montserrat;
@@ -40,37 +40,34 @@ nav a {
 .navbar-toggler span.navbar-toggler-icon{
     background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(221, 0, 164,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); ;
 }
-nav button{
+nav button {
     color: rgba(221, 0, 164,0.7);
 }
 /* custom navbar color */
 
 /*********** header-index **********/
-.land-head{
+.land-head {
     background-color:#230e33 ;
     text-align: center;
     padding: 6rem 5rem;
 }
-.land-head h1{
+.land-head h1 {
     font-family: Montserrat;
-font-style: normal;
-font-weight: 900;
-font-size: 5rem;
-color: #DD00A4;
-width: 75%;
-margin: 2rem auto;
-text-shadow: 0px 10px 5px #578EFF;
-
-
+    font-style: normal;
+    font-weight: 900;
+    font-size: 5rem;
+    color: #DD00A4;
+    width: 75%;
+    margin: 2rem auto;
+    text-shadow: 0px 10px 5px #578EFF;
 }
-.land-head p{
+.land-head p {
     margin: 2rem auto;
     color: #fff;
     font-size: 1.75rem;
     font-family:Lato;
     /* pls hlp gatau warnanya */
     display:none;
-
 }
 .kontainer-pertama-index{
     background-color: #230e33;
@@ -79,12 +76,9 @@ text-shadow: 0px 10px 5px #578EFF;
     font-family: Roboto;
     padding: 5rem;
     margin: 0;
-
-
 }
 .macan-debritto{
 text-align: right;
-
 }
 div h1.text-header-index{
     font-family: Montserrat;
@@ -139,6 +133,7 @@ div h1.text-header-index{
 .logo-debritto:hover{
     opacity: 85%;
 }
+
 /********** footer-index **********/
 .footer{
     text-align: center;
@@ -153,6 +148,7 @@ div h1.text-header-index{
 .footer a:hover{
     opacity: 100%;
 }
+
 /* ******header-makanan *****/
 div h1.text-header-makanan{
     font-family: Montserrat;
@@ -176,7 +172,6 @@ div h1.text-header-makanan{
     text-align:center;
     background-color:#fff;
     margin:2rem auto;
- 
 }
 .kartu-jualan:hover{
     opacity: 85%;
@@ -190,14 +185,15 @@ div h1.text-header-makanan{
     font-family:arial;
     color:#578EFF;
 }
+
 /* *******header-barang ******/
 .text-header-barang{
     font-family: Montserrat;
     font-weight: bold;
     color: #DD00A4;
-    text-shadow: 0px 2px 2px #fFF;
-    
+    text-shadow: 0px 2px 2px #fFF;   
 }
+
 /* *******header-jasa ******/
 .text-header-jasa{
     font-family: Montserrat;
@@ -205,6 +201,36 @@ div h1.text-header-makanan{
     color: #EE8D03;
     text-shadow: 0px 2px 2px #DD00A4;
 }
+
+/* Info Produk */
+.container .info-produk {
+  background-color: red;
+  width: 18rem;
+  height: 16rem;
+  position: absolute;
+  left: 80px;
+  border-radius: 3px;
+  margin-top: 20px;
+  box-shadow: 10px 5px 10px black;
+}
+
+.info-produk img {
+  border-radius: 3px;
+}
+
+.info-produk p {
+  padding: 5px;
+  color: white;
+}
+
+.deskripsi p {
+  background-color: #230e33;
+  color: white;
+  position: absolute;
+  left: 25rem;
+  margin-top: 20px;
+}
+
 /*******media query********/
 @media (max-width: 600px){
     nav span{
