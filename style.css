@@ -1,160 +1,163 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=Roboto&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Allura&family=Lato&display=swap');
-html, nav, .kontainer-card-makanan, .land-head{
-    background-color: #230e33;
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,500;0,600;0,700;0,800;1,500;1,600;1,700&family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allura&family=Lato&display=swap");
+html,
+nav,
+.kontainer-card-makanan,
+.land-head {
+  background-color: #230e33;
 }
 .container-fluid {
-    padding-right:0;
-    padding-left:0;
-    margin-right:auto;
-    margin-left:auto
- }
- a {
-     text-decoration: none;
- }
- hr {
-     width: 45%;
-     margin: 0 auto 5rem;
-    height: 20px;
-    border-top: 7.5px solid #702DFF ;
-    border-radius: 15px;
-    background-color: #702DFF;
- }
+  padding-right: 0;
+  padding-left: 0;
+  margin-right: auto;
+  margin-left: auto;
+}
+a {
+  text-decoration: none;
+}
+hr {
+  width: 45%;
+  margin: 0 auto 5rem;
+  height: 20px;
+  border-top: 7.5px solid #702dff;
+  border-radius: 15px;
+  background-color: #702dff;
+}
 
 /********navbar*********/
-nav { 
-    width: 100%;
-    padding: 5rem;
-    margin-top: 2rem;
-    font-size: 1rem;
+nav {
+  width: 100%;
+  padding: 5rem;
+  margin-top: 2rem;
+  font-size: 1rem;
 }
 nav a {
-    font-family: Montserrat;
-    font-weight: 600;
+  font-family: Montserrat;
+  font-weight: 600;
 }
 nav a {
-    color: #578eff;
+  color: #578eff;
 }
 
 /* custom navbar color */
-.navbar-toggler span.navbar-toggler-icon{
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(221, 0, 164,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E"); ;
+.navbar-toggler span.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(221, 0, 164,0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 nav button {
-    color: rgba(221, 0, 164,0.7);
+  color: rgba(221, 0, 164, 0.7);
 }
 /* custom navbar color */
 
 /*********** header-index **********/
 .land-head {
-    background-color:#230e33 ;
-    text-align: center;
-    padding: 6rem 5rem;
+  background-color: #230e33;
+  text-align: center;
+  padding: 6rem 5rem;
 }
 .land-head h1 {
-    font-family: Montserrat;
-    font-style: normal;
-    font-weight: 900;
-    font-size: 5rem;
-    color: #DD00A4;
-    width: 75%;
-    margin: 2rem auto;
-    text-shadow: 0px 10px 5px #578EFF;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 5rem;
+  color: #dd00a4;
+  width: 75%;
+  margin: 2rem auto;
+  text-shadow: 0px 10px 5px #578eff;
 }
 .land-head p {
-    margin: 2rem auto;
-    color: #fff;
-    font-size: 1.75rem;
-    font-family:Lato;
-    /* pls hlp gatau warnanya */
-    display:none;
+  margin: 2rem auto;
+  color: #fff;
+  font-size: 1.75rem;
+  font-family: Lato;
+  /* pls hlp gatau warnanya */
+  display: none;
 }
-.kontainer-pertama-index{
-    background-color: #230e33;
-    height: 100%;
-    color: #fff;
-    font-family: Roboto;
-    padding: 5rem;
-    margin: 0;
+.kontainer-pertama-index {
+  background-color: #230e33;
+  height: 100%;
+  color: #fff;
+  font-family: Roboto;
+  padding: 5rem;
+  margin: 0;
 }
-.macan-debritto{
-text-align: right;
+.macan-debritto {
+  text-align: right;
 }
-div h1.text-header-index{
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #DD00A4;
+div h1.text-header-index {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #dd00a4;
 }
 
 /*********** body-index **********/
-.yang-dimiliki{
-    background-color: #fff;
-    margin:2rem 0 2rem 0;
-    color: #000;
-    padding: 5rem;
-    width: 100%;
+.yang-dimiliki {
+  background-color: #fff;
+  margin: 2rem 0 2rem 0;
+  color: #000;
+  padding: 5rem;
+  width: 100%;
 }
-.yang-dimiliki h1{
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #702DFF;
-    margin: auto auto 5rem auto;
+.yang-dimiliki h1 {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #702dff;
+  margin: auto auto 5rem auto;
 }
-.yang-dimiliki .col-lg-4, .yang-dimiliki{
-    text-align: center;
+.yang-dimiliki .col-lg-4,
+.yang-dimiliki {
+  text-align: center;
 }
-.yang-dimiliki h2{
-    font-family: Montserrat;
-    font-weight: 600;
+.yang-dimiliki h2 {
+  font-family: Montserrat;
+  font-weight: 600;
 }
-.yang-dimiliki .makanan{
-    color: #C90808;
+.yang-dimiliki .makanan {
+  color: #c90808;
 }
-.yang-dimiliki .barang{
-    color: #DD00A4;
+.yang-dimiliki .barang {
+  color: #dd00a4;
 }
-.yang-dimiliki .jasa{
-    color: #EE8D03;
+.yang-dimiliki .jasa {
+  color: #ee8d03;
 }
-.yang-dimiliki .col-sm-12:hover{
-    /* border-style: solid;
+.yang-dimiliki .col-sm-12:hover {
+  /* border-style: solid;
     border-color: #8C8C8C;
     border-width: 0.75px;*/
-    border-radius: 10px; 
-    box-shadow: 0.2px 0.2px 5px #8C8C8C;
-
+  border-radius: 10px;
+  box-shadow: 0.2px 0.2px 5px #8c8c8c;
 }
-.yang-dimiliki p{
-    color: #8C8C8C;
-    width: 50%;
-    margin:2rem auto;
+.yang-dimiliki p {
+  color: #8c8c8c;
+  width: 50%;
+  margin: 2rem auto;
 }
-.yang-dimiliki img:hover{
-    opacity: 80%;
+.yang-dimiliki img:hover {
+  opacity: 80%;
 }
-.logo-sekolah-dan-presid{
-    padding-bottom: 5rem;
+.logo-sekolah-dan-presid {
+  padding-bottom: 5rem;
 }
-.logo-debritto{
-    text-align: right;
+.logo-debritto {
+  text-align: right;
 }
-.logo-debritto:hover{
-    opacity: 85%;
+.logo-debritto:hover {
+  opacity: 85%;
 }
 
 /********** footer-index **********/
-.footer{
-    text-align: left;
-    padding: 0.5rem 0 0.2rem 2rem;
-    color: #fff;
-    background-color: #7404B6; 
+.footer {
+  text-align: left;
+  padding: 0.5rem 0 0.2rem 2rem;
+  color: #fff;
+  background-color: #7404b6;
 }
-.footer a{
-    color:#578EFF;
-    opacity: 100%;
+.footer a {
+  color: #578eff;
+  opacity: 100%;
 }
-.footer a:hover{
-    opacity: 80%;
+.footer a:hover {
+  opacity: 80%;
 }
 .footer .email {
   padding-top: 5px;
@@ -163,67 +166,67 @@ div h1.text-header-index{
   font-weight: 300px;
   font-size: 0.8rem;
 }
-.footer h3{
-    font-size: 1rem;
+.footer h3 {
+  font-size: 1rem;
 }
 /* ******header-makanan *****/
-div h1.text-header-makanan{
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #C90808;
-    text-shadow: 0px 2px 2px #7304B6;
+div h1.text-header-makanan {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #c90808;
+  text-shadow: 0px 2px 2px #7304b6;
 }
 /********* body-makanan + kartu jualan ****** */
-.kontainer-card-makanan{
-    padding: 0rem 3rem;
-    text-align: center;
+.kontainer-card-makanan {
+  padding: 0rem 3rem;
+  text-align: center;
 }
-.kontainer-card-makanan .row .col-lg-3{
-    margin: auto;
-    text-align: center;
+.kontainer-card-makanan .row .col-lg-3 {
+  margin: auto;
+  text-align: center;
 }
-.kartu-jualan{
-    border-radius:15px;
-    width:200px;
-    height:200px;
-    text-align:center;
-    background-color:#fff;
-    margin:2rem auto;
+.kartu-jualan {
+  border-radius: 15px;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-color: #fff;
+  margin: 2rem auto;
 }
-.kartu-jualan:hover{
-    opacity: 85%;
+.kartu-jualan:hover {
+  opacity: 85%;
 }
-.kartu-jualan img{
-    border-radius:15px 15px 0 0;
+.kartu-jualan img {
+  border-radius: 15px 15px 0 0;
 }
-.kartu-jualan h1{
-    font-size:1.25rem;
-    margin:1rem;
-    font-family:arial;
-    color:#578EFF;
+.kartu-jualan h1 {
+  font-size: 1.25rem;
+  margin: 1rem;
+  font-family: arial;
+  color: #578eff;
 }
 
 /* *******header-barang ******/
-.text-header-barang{
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #DD00A4;
-    text-shadow: 0px 2px 2px #fFF;   
+.text-header-barang {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #dd00a4;
+  text-shadow: 0px 2px 2px #fff;
 }
 
 /* *******header-jasa ******/
-.text-header-jasa{
-    font-family: Montserrat;
-    font-weight: bold;
-    color: #EE8D03;
-    text-shadow: 0px 2px 2px #DD00A4;
+.text-header-jasa {
+  font-family: Montserrat;
+  font-weight: bold;
+  color: #ee8d03;
+  text-shadow: 0px 2px 2px #dd00a4;
 }
 
 /****** Info Produk **********/
 
-.kontainer-produk{
-    background-color:#230e33 ;
-    padding: 5rem;
+.kontainer-produk {
+  background-color: #230e33;
+  padding: 5rem;
 }
 .container-fluid .info-produk {
   background-color: white;
@@ -231,134 +234,130 @@ div h1.text-header-makanan{
   height: 13rem;
   border-radius: 5px;
   box-shadow: 5px 5px 10px black;
-  margin: 20px  auto;
+  margin: 20px auto;
 }
 
 .info-produk img {
-    position:relative;
-    bottom: 5px;
+  position: relative;
+  bottom: 5px;
   border-radius: 5px;
   box-shadow: 5px 5px 7px black;
 }
 
 .info-produk p {
-  color: #5F5F5F;
+  color: #5f5f5f;
   padding: 5px;
   font-family: Montserrat;
   font-weight: 800;
-  margin:12px 0 0 10px;
+  margin: 12px 0 0 10px;
 }
-.deskripsi{
-    margin: 20px auto 2rem;
-    color: white;
-    text-align: justify;
+.deskripsi {
+  margin: 20px auto 2rem;
+  color: white;
+  text-align: justify;
 }
-.info-produk{
-    margin-right: auto;
+.info-produk {
+  margin-right: auto;
 }
-.tombol-kontak{
-    width: 200px;
-    background-color: #578eff;
-    color:#fff;
-    padding: 0.5rem 1rem 0.1rem;
-    border-radius: 10px; 
-    opacity: 85%;
+.tombol-kontak {
+  width: 200px;
+  background-color: #578eff;
+  color: #fff;
+  padding: 0.5rem 1rem 0.1rem;
+  border-radius: 10px;
+  opacity: 85%;
 }
-.tombol-kontak:hover{
-    opacity: 100%;
+.tombol-kontak:hover {
+  opacity: 100%;
 }
-.tombol-kontak p{
-    margin-top: 5px;
-    font-family: Roboto;
-    font-size: 1.2rem;
+.tombol-kontak p {
+  padding-top: 0.7rem;
+  margin-left: 1.4rem;
+  font-family: Roboto;
+  font-size: 1.2rem;
 }
 /*******media query********/
-@media (max-width: 600px){
-    nav span{
+@media (max-width: 600px) {
+  nav span {
+    font-size: 0.95rem;
+  }
+  nav li a {
+    font-size: 0.8rem;
+  }
+  .navbar-toggler {
+    transform: scale(0.8);
+  }
+  /******index*****/
 
-        font-size: 0.95rem;
-    }
-    nav li a{
-        font-size: 0.8rem;
-    }
-    .navbar-toggler{
-        transform: scale(0.8);
-    }
-    /******index*****/
-
-    .gambar-index{
-        transform: scale(0.75);
-    }
-    .yang-dimiliki{
-        padding: 5rem 0;
-    }
-    .yang-dimiliki h1{
-        width: 50%;
-    }
-    .kontainer-pertama-index p{
-        text-align: justify;
-    }
-    .kontainer-pertama-index h1{
-        text-align: center;
-    }
-    .footer{
-        text-align: center;
-        padding-left: 0;
-    }
-    /**********makanan*******/
-   .kontainer-pertama-makanan{
-       padding: 0;
-   }
-   .macan-debritto-makanan{
-       padding:0 5rem;
-   }
-    .logo-makanan-page{
-        
-        padding: 0;
-    }
-  
-  
+  .gambar-index {
+    transform: scale(0.75);
+  }
+  .yang-dimiliki {
+    padding: 5rem 0;
+  }
+  .yang-dimiliki h1 {
+    width: 50%;
+  }
+  .kontainer-pertama-index p {
+    text-align: justify;
+  }
+  .kontainer-pertama-index h1 {
+    text-align: center;
+  }
+  .footer {
+    text-align: center;
+    padding-left: 0;
+  }
+  /**********makanan*******/
+  .kontainer-pertama-makanan {
+    padding: 0;
+  }
+  .macan-debritto-makanan {
+    padding: 0 5rem;
+  }
+  .logo-makanan-page {
+    padding: 0;
+  }
 }
-@media (max-width: 700px){
-    /* ****index**** */
-    .land-head h1{
-        font-size: 3rem;
-        text-shadow: 0px 5px 5px #578EFF;
-    }
-    .land-head p{
-        font-size: 1rem;
-    }
-    .logo-debritto, .logo-presid{
-        transform: scale(0.6);
-        text-align: center;
-    }
-    /* ****info *****/
-  
+@media (max-width: 700px) {
+  /* ****index**** */
+  .land-head h1 {
+    font-size: 3rem;
+    text-shadow: 0px 5px 5px #578eff;
+  }
+  .land-head p {
+    font-size: 1rem;
+  }
+  .logo-debritto,
+  .logo-presid {
+    transform: scale(0.6);
+    text-align: center;
+  }
+  /* ****info *****/
 }
-@media (max-width: 500px){
-    /* ****index**** */
-   .land-head{
-       padding: 3rem;
-   }
-    .land-head h1{
-        font-size: 2rem;
-        text-shadow: 0px 5px 5px #578EFF;
-    }
-    .land-head p{
-        font-size: 0.8rem;
-    }
-     /* ****info *****/
-     .kontainer-produk{
-         padding: 2rem;
-     }
-    
-} 
-@media (max-width: 990px){
-    /* ****makanan**** */
-    .kontainer-pertama-makanan{
-        text-align: center;
-    }
-    .kontainer-pertama-makanan .macan-debritto-makanan{
-        text-align: center;
-    }
+@media (max-width: 500px) {
+  /* ****index**** */
+  .land-head {
+    padding: 3rem;
+  }
+  .land-head h1 {
+    font-size: 2rem;
+    text-shadow: 0px 5px 5px #578eff;
+  }
+  .land-head p {
+    font-size: 0.8rem;
+  }
+  /* ****info *****/
+  .kontainer-produk {
+    padding: 2rem;
+  }
+}
+@media (max-width: 990px) {
+  /* ****makanan**** */
+  .kontainer-pertama-makanan {
+    text-align: center;
+  }
+  .kontainer-pertama-makanan .macan-debritto-makanan {
+    text-align: center;
+  }
 }
