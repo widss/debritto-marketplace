@@ -145,13 +145,14 @@ div h1.text-header-index{
 /********** footer-index **********/
 .footer{
     text-align: center;
-    padding:0.5rem ;
+    padding-top:0.5rem ;
+    padding-bottom: 0.2rem;
     color: #fff;
     background-color: #7404B6; 
 }
 .footer a{
     color:#578EFF;
-    opacity: 80%;
+    opacity: 50%;
 }
 .footer a:hover{
     opacity: 100%;
@@ -262,9 +263,10 @@ div h1.text-header-makanan{
     color:#fff;
     padding: 0.5rem 1rem 0.1rem;
     border-radius: 10px; 
+    opacity: 85%;
 }
 .tombol-kontak:hover{
-    opacity: 85%;
+    opacity: 100%;
 }
 .tombol-kontak p{
     margin-top: 5px;
