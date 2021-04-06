@@ -144,18 +144,17 @@ div h1.text-header-index{
 
 /********** footer-index **********/
 .footer{
-    text-align: center;
-    padding-top:0.5rem ;
-    padding-bottom: 0.2rem;
+    text-align: left;
+    padding: 0.5rem 0 0.2rem 2rem;
     color: #fff;
     background-color: #7404B6; 
 }
 .footer a{
     color:#578EFF;
-    opacity: 50%;
+    opacity: 100%;
 }
 .footer a:hover{
-    opacity: 100%;
+    opacity: 80%;
 }
 .footer .email {
   padding-top: 5px;
@@ -301,6 +300,10 @@ div h1.text-header-makanan{
     }
     .kontainer-pertama-index h1{
         text-align: center;
+    }
+    .footer{
+        text-align: center;
+        padding-left: 0;
     }
     /**********makanan*******/
    .kontainer-pertama-makanan{
