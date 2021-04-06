@@ -116,6 +116,14 @@ div h1.text-header-index{
 .yang-dimiliki .jasa{
     color: #EE8D03;
 }
+.yang-dimiliki .col-sm-12:hover{
+    /* border-style: solid;
+    border-color: #8C8C8C;
+    border-width: 0.75px;*/
+    border-radius: 10px; 
+    box-shadow: 0.2px 0.2px 5px #8C8C8C;
+
+}
 .yang-dimiliki p{
     color: #8C8C8C;
     width: 50%;
