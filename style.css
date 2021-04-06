@@ -202,35 +202,41 @@ div h1.text-header-makanan{
     text-shadow: 0px 2px 2px #DD00A4;
 }
 
-/* Info Produk */
-.container .info-produk {
+/****** Info Produk **********/
+.kontainer-produk{
+    background-color:#230e33 ;
+    padding: 5rem;
+}
+.container-fluid .info-produk {
   background-color: red;
   width: 18rem;
-  height: 16rem;
-  position: absolute;
-  left: 80px;
-  border-radius: 3px;
-  margin-top: 20px;
+  height: 12rem;
+  border-radius: 5px;
   box-shadow: 10px 5px 10px black;
+  margin: 20px  auto;
 }
 
 .info-produk img {
-  border-radius: 3px;
+    position:relative;
+    bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 10px 5px 10px black;
 }
 
 .info-produk p {
+  color: white;
   padding: 5px;
-  color: white;
+  font-family: Montserrat;
+  font-weight: 600;
 }
-
-.deskripsi p {
-  background-color: #230e33;
-  color: white;
-  position: absolute;
-  left: 25rem;
-  margin-top: 20px;
+.deskripsi{
+    margin: 20px auto 2rem;
+    color: white;
+    text-align: justify;
 }
-
+.info-produk{
+    margin-right: auto;
+}
 /*******media query********/
 @media (max-width: 600px){
     nav span{
@@ -275,6 +281,7 @@ div h1.text-header-makanan{
   
 }
 @media (max-width: 700px){
+    /* ****index**** */
     .land-head h1{
         font-size: 3rem;
         text-shadow: 0px 5px 5px #578EFF;
@@ -286,8 +293,11 @@ div h1.text-header-makanan{
         transform: scale(0.6);
         text-align: center;
     }
+    /* ****info *****/
+  
 }
 @media (max-width: 500px){
+    /* ****index**** */
    .land-head{
        padding: 3rem;
    }
@@ -298,6 +308,11 @@ div h1.text-header-makanan{
     .land-head p{
         font-size: 0.8rem;
     }
+     /* ****info *****/
+     .kontainer-produk{
+         padding: 2rem;
+     }
+    
 } 
 @media (max-width: 990px){
     /* ****makanan**** */
