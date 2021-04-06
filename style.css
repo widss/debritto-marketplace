@@ -145,9 +145,9 @@ div h1.text-header-index{
 /********** footer-index **********/
 .footer{
     text-align: center;
-    padding:3rem ;
+    padding:0.5rem ;
     color: #fff;
-    background-color: #7404B6;
+    background-color: #7404B6; 
 }
 .footer a{
     color:#578EFF;
@@ -161,8 +161,11 @@ div h1.text-header-index{
 }
 .footer p {
   font-weight: 300px;
+  font-size: 0.8rem;
 }
-
+.footer h3{
+    font-size: 1rem;
+}
 /* ******header-makanan *****/
 div h1.text-header-makanan{
     font-family: Montserrat;
@@ -217,6 +220,7 @@ div h1.text-header-makanan{
 }
 
 /****** Info Produk **********/
+
 .kontainer-produk{
     background-color:#230e33 ;
     padding: 5rem;
@@ -224,9 +228,9 @@ div h1.text-header-makanan{
 .container-fluid .info-produk {
   background-color: white;
   width: 18rem;
-  height: 12rem;
+  height: 13rem;
   border-radius: 5px;
-  box-shadow: 10px 5px 10px black;
+  box-shadow: 5px 5px 10px black;
   margin: 20px  auto;
 }
 
@@ -242,7 +246,7 @@ div h1.text-header-makanan{
   padding: 5px;
   font-family: Montserrat;
   font-weight: 800;
-  margin:10px 0 0 10px;
+  margin:12px 0 0 10px;
 }
 .deskripsi{
     margin: 20px auto 2rem;
@@ -251,6 +255,21 @@ div h1.text-header-makanan{
 }
 .info-produk{
     margin-right: auto;
+}
+.tombol-kontak{
+    width: 200px;
+    background-color: #578eff;
+    color:#fff;
+    padding: 0.5rem 1rem 0.1rem;
+    border-radius: 10px; 
+}
+.tombol-kontak:hover{
+    opacity: 85%;
+}
+.tombol-kontak p{
+    margin-top: 5px;
+    font-family: Roboto;
+    font-size: 1.2rem;
 }
 /*******media query********/
 @media (max-width: 600px){
