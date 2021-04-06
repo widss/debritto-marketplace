@@ -156,6 +156,12 @@ div h1.text-header-index{
 .footer a:hover{
     opacity: 100%;
 }
+.footer .email {
+  padding-top: 5px;
+}
+.footer p {
+  font-weight: 300px;
+}
 
 /* ******header-makanan *****/
 div h1.text-header-makanan{
