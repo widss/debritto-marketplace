@@ -208,7 +208,7 @@ div h1.text-header-makanan{
     padding: 5rem;
 }
 .container-fluid .info-produk {
-  background-color: red;
+  background-color: white;
   width: 18rem;
   height: 12rem;
   border-radius: 5px;
@@ -220,14 +220,15 @@ div h1.text-header-makanan{
     position:relative;
     bottom: 5px;
   border-radius: 5px;
-  box-shadow: 10px 5px 10px black;
+  box-shadow: 5px 5px 7px black;
 }
 
 .info-produk p {
-  color: white;
+  color: #5F5F5F;
   padding: 5px;
   font-family: Montserrat;
-  font-weight: 600;
+  font-weight: 800;
+  margin:10px 0 0 10px;
 }
 .deskripsi{
     margin: 20px auto 2rem;
