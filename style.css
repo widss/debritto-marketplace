@@ -192,9 +192,12 @@ div h1.text-header-makanan {
   text-align: center;
   background-color: #fff;
   margin: 2rem auto;
+  transform: scale(1);
+  transition: 0.3s;
 }
 .kartu-jualan:hover {
   opacity: 85%;
+  transform: scale(1.1);
 }
 .kartu-jualan img {
   border-radius: 15px 15px 0 0;
@@ -263,7 +266,7 @@ div h1.text-header-makanan {
   width: 200px;
   background-color: #578eff;
   color: #fff;
-  padding: 0.5rem 1rem 0.1rem;
+  padding: 0.7rem 2.4rem 0.2rem;
   border-radius: 10px;
   opacity: 85%;
 }
@@ -271,8 +274,7 @@ div h1.text-header-makanan {
   opacity: 100%;
 }
 .tombol-kontak p {
-  padding-top: 0.7rem;
-  margin-left: 1.4rem;
+  margin-top: 5px;
   font-family: Roboto;
   font-size: 1.2rem;
 }
