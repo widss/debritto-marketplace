@@ -279,17 +279,26 @@ div h1.text-header-makanan {
   font-size: 1.2rem;
 }
 /*******media query********/
-@media (max-width: 600px) {
-  nav span {
-    font-size: 0.95rem;
-  }
-  nav li a {
-    font-size: 0.8rem;
-  }
-  .navbar-toggler {
-    transform: scale(0.8);
-  }
-  /******index*****/
+
+@media (max-width: 600px){
+    .navbar,.navbar .container-fluid{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .navbar-collapse{
+        padding-left: 50px;
+    }
+    nav span{
+
+        font-size: 0.95rem;
+    }
+    nav li a{
+        font-size: 0.8rem;
+    }
+    .navbar-toggler{
+        transform: scale(0.8);
+    }
+    /******index*****/
 
   .gambar-index {
     transform: scale(0.75);
