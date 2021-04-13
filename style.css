@@ -120,12 +120,17 @@ div h1.text-header-index {
 .yang-dimiliki .jasa {
   color: #ee8d03;
 }
+.yang-dimiliki .col-sm-12 {
+  transition: 0.4s;
+  transform: scale(1);
+}
 .yang-dimiliki .col-sm-12:hover {
   /* border-style: solid;
     border-color: #8C8C8C;
     border-width: 0.75px;*/
   border-radius: 10px;
   box-shadow: 0.2px 0.2px 5px #8c8c8c;
+  transform: scale(1.05);
 }
 .yang-dimiliki p {
   color: #8c8c8c;
