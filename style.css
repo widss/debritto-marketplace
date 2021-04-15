@@ -252,8 +252,8 @@ div h1.text-header-makanan {
 }
 .container-fluid .info-produk {
   background-color: white;
-  width: 18rem;
-  height: 13rem;
+  width: 25rem;
+  height: 16rem;
   border-radius: 5px;
   box-shadow: 5px 5px 10px black;
   margin: 20px auto;
@@ -329,7 +329,9 @@ div h1.text-header-makanan {
         transform: scale(0.8);
     }
     /******index*****/
-
+  .kontainer-pertama-index{
+    padding: 3rem;
+  }
   .gambar-index {
     transform: scale(0.75);
   }
@@ -361,11 +363,30 @@ div h1.text-header-makanan {
     padding: 0;
   }
   /* *******info******* */
+  .kontainer-produk .col-sm-12.card{
+    padding: 1rem 0 0 0;
+    text-align: center;
+    margin-left: auto;
+
+  }
+  .kontainer-produk{
+    margin-top: 5rem;
+  }
   .deskripsi{
-    padding: 2rem;
+    padding: 3rem;
   }
   .deskripsi i p{
     text-align: left;
+  }
+  .container-fluid .info-produk{
+    height: 13rem;
+  }
+  .container-fluid .info-produk, .info-produk img{
+    width: 300px;
+    margin: 2px auto;
+  }
+  .info-produk img{
+    height: 150px;
   }
 }
 @media (max-width: 700px) {
@@ -398,7 +419,7 @@ div h1.text-header-makanan {
   }
   /* ****info *****/
   .kontainer-produk {
-    padding: 2rem;
+    padding: 0rem;
   }
 }
 @media (max-width: 990px) {
