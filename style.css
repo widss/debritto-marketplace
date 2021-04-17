@@ -292,16 +292,18 @@ div h1.text-header-makanan {
 }
 .tombol-kontak {
   width: 200px;
-  background-color: #5f5f5f;
+  background-color: #dd00a4;
   color: #fff;
   padding: 0.7rem 2.4rem 0.2rem;
   border-radius: 10px;
   opacity: 90%;
+  box-shadow: -5px 5px 5px #578eff;
 }
 .tombol-kontak:hover {
   opacity: 100%;
   color: #5f5f5f;
   background-color: #fff;
+  box-shadow: 0px 0px 0px #578eff;
 }
 .tombol-kontak p {
   margin-top: 5px;
@@ -357,10 +359,11 @@ div h1.text-header-makanan {
     padding: 0;
   }
   .macan-debritto-makanan {
-    padding: 0 5rem;
+    padding: 0 3rem;
   }
   .logo-makanan-page {
     padding: 0;
+    
   }
   /* *******info******* */
   .kontainer-produk .col-sm-12.card{
