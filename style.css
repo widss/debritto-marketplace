@@ -287,6 +287,14 @@ div h1.text-header-makanan {
   margin-top: 30px;
 }
 
+.overlay:target {
+  width: auto;
+  height: auto;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.85);
+}
+
 .overlay:target img {
   animation: zoomAndFade 1s;
 }
