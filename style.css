@@ -283,6 +283,7 @@ div h1.text-header-makanan {
 
 .overlay img {
   max-height: 100%;
+  max-width: 100%;
   box-shadow: 2px 2px 7px rgba(0, 0, 0, 0.5);
   margin-top: 30px;
 }
@@ -475,6 +476,16 @@ div h1.text-header-makanan {
   }
   .info-produk img{
     height: 150px;
+  }
+  /* ****overlay ********/
+  .overlay{
+    padding: 1.5rem;
+  }
+.overlay img{
+  margin-top: 75%;
+  }
+  .overlay .close{
+    top: 200px;
   }
 }
 @media (max-width: 700px) {
